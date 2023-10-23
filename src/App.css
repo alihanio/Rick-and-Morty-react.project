@@ -1,0 +1,93 @@
+.cartoon-card {
+  display: flex;
+  flex-direction: column;
+  width: 23.175rem;
+  height: 13.75rem;
+  background-color: #3c3e44;
+  padding: 0.75rem 0.75rem;
+  color: rgb(255, 255, 255);
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+.card-conteiner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: #272b33;
+  gap: 2rem;
+  font-family: "BlinkMacSystemFont", "Segoe UI", "Roboto", "Helvetica", "Arial",
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+.card-block {
+  display: flex;
+  width: 37.5rem;
+  height: 13.75rem;
+  transition: 0.3s ease-in;
+}
+.card-block:hover{
+  transform: scale(1.02);
+
+}
+.characters-image {
+  width: 14.325rem;
+  height: 13.75rem;
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+}
+.back-lettering {
+  color: rgb(158, 158, 158);
+  font-weight: 500;
+  margin-top: 1rem;
+}
+.live-circle {
+  width: 0.5rem;
+  height: 0.5rem;
+  background-color: antiquewhite;
+  border-radius: 50%;
+  margin-right: 0.2rem;
+}
+.characters-name {
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+.characters-name:hover {
+  color: #ff9800;
+  cursor: pointer;
+}
+.location {
+  font-size: 1.125rem;
+  text-decoration: none;
+  color: white;
+}
+.location:hover {
+  color: #ff9800;
+  cursor: pointer;
+}
+.live-conteiner {
+  display: flex;
+  align-items: center;
+}
+.live-conteiner span {
+  font-weight: 500;
+}
+.pageBtn {
+  width: 10rem;
+  height: 3rem;
+  border-radius: 1rem;
+  border: none;
+  background-color: #ff9800;
+}
+.page {
+  color: white;
+}
+.prevBtn {
+  width: 10rem;
+  height: 3rem;
+  border-radius: 1rem;
+  border: none;
+  background-color: rgb(253, 61, 61);
+}
